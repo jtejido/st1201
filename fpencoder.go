@@ -137,8 +137,7 @@ func (fpe *FPEncoder) Decode(bytes []byte) (val float64, err error) {
 		val = fpe.sR*(l-fpe.zOffset) + fpe.a
 
 		if val < fpe.a || val > fpe.b {
-			err = fmt.Errorf("Error decoding floating point value; out of range")
-			return 0.0, err
+			return 0.0, fmt.Errorf("Error decoding floating point value; out of range")
 		}
 	}
 
