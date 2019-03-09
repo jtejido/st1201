@@ -1,4 +1,10 @@
 # st1201
+
+[![Build Status](https://travis-ci.org/jtejido/st1201.svg?branch=master)](https://travis-ci.org/jtejido/st1201) 
+[![codecov](https://codecov.io/gh/jtejido/st1201/branch/master/graph/badge.svg)](https://codecov.io/gh/jtejido/st1201)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
+
 ## Floating Point to Integer Mapping
 
 Many data values which are measured or computed in floating point are inserted into KLV for
